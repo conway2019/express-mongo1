@@ -1,0 +1,18 @@
+GET http://localhost:3000/books
+Accept: application/json
+
+###
+
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+  "name": "conway",
+  "price": 100
+}
+
+###
+DELETE http://localhost:3000/books/5e15e56423a89135c8cc8929
+Accept: application/json
+
+###
